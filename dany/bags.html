@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danny Store - Bags</title>
+    <link rel="stylesheet" href="bagsstyle.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img class="web-logo" src="logo.png" alt="Danny Store Logo">
+            <div class="store-name">Danny Store</div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="laptops.html">Laptops</a></li>
+                <li><a href="stands.html">Stands</a></li>
+                <li><a href="#">Bags</a></li>
+                <li><a href="info.html">INFO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="product-section">
+        <h2>BAGS Collection</h2>
+        <div class="product-container">
+            <div class="product-box" onclick="showPaymentOptions('Adjustable Laptop bag', 29.99)">
+                <img src="bag1.jpg" alt="bag 1">
+                <div class="product-name">Adjustable Laptop bag</div>
+                <div class="product-price">$29.99</div>
+            </div>
+            <div class="product-box" onclick="showPaymentOptions('Foldable bag', 19.99)">
+                <img src="bag2.jpg" alt="bag 2">
+                <div class="product-name">Foldable bag</div>
+                <div class="product-price">$19.99</div>
+            </div>
+            <div class="product-box" onclick="showPaymentOptions('Ergonomic bag', 39.99)">
+                <img src="bag3.jpg" alt="bag 3">
+                <div class="product-name">Ergonomic bag</div>
+                <div class="product-price">$39.99</div>
+            </div>
+            <div class="product-box" onclick="showPaymentOptions('Ergonomic bag', 39.99)">
+                <img src="bag4.jpg" alt="bag 4">
+                <div class="product-name">Ergonomic bag</div>
+                <div class="product-price">$39.99</div>
+            </div>
+            <div class="product-box" onclick="showPaymentOptions('Ergonomic bag', 39.99)">
+                <img src="bag5.jpg" alt="bag 5">
+                <div class="product-name">Ergonomic bag</div>
+                <div class="product-price">$39.99</div>
+            </div>
+            <div class="product-box" onclick="showPaymentOptions('Ergonomic bag', 39.99)">
+                <img src="bag6.jpg" alt="bag 6">
+                <div class="product-name">Ergonomic bag</div>
+                <div class="product-price">$39.99</div>
+            </div>
+            <div class="product-box" onclick="showPaymentOptions('Ergonomic bag', 39.99)">
+                <img src="bag7.jpg" alt="bag 7">
+                <div class="product-name">Ergonomic bag</div>
+                <div class="product-price">$39.99</div>
+            </div>
+            <div class="product-box" onclick="showPaymentOptions('Ergonomic bag', 39.99)">
+                <img src="bag8.jpg" alt="bag 8">
+                <div class="product-name">Ergonomic bag</div>
+                <div class="product-price">$39.99</div>
+            </div>
+            <div class="product-box" onclick="showPaymentOptions('Ergonomic bag', 39.99)">
+                <img src="bag9.jpg" alt="bag 9">
+                <div class="product-name">Ergonomic bag</div>
+                <div class="product-price">$39.99</div>
+            </div>
+            <div class="product-box" onclick="showPaymentOptions('Ergonomic bag', 39.99)">
+                <img src="bag10.jpg" alt="bag 10">
+                <div class="product-name">Ergonomic bag</div>
+                <div class="product-price">$39.99</div>
+            </div>
+            <div class="product-box" onclick="showPaymentOptions('Ergonomic bag', 39.99)">
+                <img src="bag11.jpg" alt="bag 11">
+                <div class="product-name">Ergonomic bag</div>
+                <div class="product-price">$39.99</div>
+            </div>
+            <div class="product-box" onclick="showPaymentOptions('Ergonomic bag', 39.99)">
+                <img src="bag12.jpg" alt="bag 12">
+                <div class="product-name">Ergonomic bag</div>
+                <div class="product-price">$39.99</div>
+            </div>
+            <div class="product-box" onclick="showPaymentOptions('Ergonomic bag', 39.99)">
+                <img src="bag13.jpg" alt="bag 13">
+                <div class="product-name">Ergonomic bag</div>
+                <div class="product-price">$39.99</div>
+            </div>
+            <div class="product-box" onclick="showPaymentOptions('Ergonomic bag', 39.99)">
+                <img src="bag14.jpg" alt="bag 14">
+                <div class="product-name">Ergonomic bag</div>
+                <div class="product-price">$39.99</div>
+            </div>
+            <div class="product-box" onclick="showPaymentOptions('Ergonomic bag', 39.99)">
+                <img src="bag15.jpg" alt="bag 15">
+                <div class="product-name">Ergonomic bag</div>
+                <div class="product-price">$39.99</div>
+            </div>
+            <!-- More products can go here -->
+        </div>
+    </div>
+
+    <div class="payment-section" id="payment-section">
+        <h2>Payment Options for <span id="product-name"></span></h2>
+        <p>Choose your preferred payment method:</p>
+        <div>
+            <button class="mobile-money-button" onclick="payWithMTNMobileMoney()">Pay with MTN Mobile Money</button>
+        </div>
+        <div>
+            <a href="https://www.momo.vn" target="_blank">
+                <button class="momo-button">Pay with Momo</button>
+            </a>
+        </div>
+        <div id="payment-request-button"></div>
+    </div>
+
+    <script src="bagsjv.js">
+        
+    </script>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links">
+                <a href="home.html">Home</a>
+                <a href="laptops.html">Laptops</a>
+                <a href="stands.html">Stands</a>
+                <a href="bags.html">Bags</a>
+            </div>
+            <div>
+                <p>&copy; 2025 Danny Shop. All rights reserved.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Follow us on social media for the latest updates and offers!</p>
+        </div>
+    </footer>
+</body>
+</html>

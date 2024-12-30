@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danny Store - Home</title>
+    <link rel="stylesheet" href="standstyle.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img class="web-logo" src="logo.png" alt="Danny Store Logo">
+            <div class="store-name">Danny Store</div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="laptops.html">Laptops</a></li>
+                <li><a href="stands.htm">Stands</a></li>
+                <li><a href="bags.html">Bags</a></li>
+                <li><a href="info.html">info</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="product-section">
+        <h2>Stands Collection</h2>
+        <div class="product-container">
+            <div class="product-box" onclick="showPaymentOptions('Adjustable Laptop Stand', 29.99)">
+                <img src="stands1.jpg" alt="Stand 1">
+                <div class="product-name">Adjustable Laptop Stand</div>
+                <div class="product-price">$29.99</div>
+            </div>
+            <div class="product-box" onclick="showPaymentOptions('Foldable Stand', 19.99)">
+                <img src="stands2.jpg" alt="Stand 2">
+                <div class="product-name">Foldable Stand</div>
+                <div class="product-price">$19.99</div>
+            </div>
+            <div class="product-box" onclick="showPaymentOptions('Ergonomic Stand', 39.99)">
+                <img src="stands3.jpg" alt="Stand 3">
+                <div class="product-name">Ergonomic Stand</div>
+                <div class="product-price">$39.99</div>
+            </div>
+            <div class="product-box" onclick="showPaymentOptions('Ergonomic Stand', 39.99)">
+                <img src="stands4.jpg" alt="Stand 4">
+                <div class="product-name">Ergonomic Stand</div>
+                <div class="product-price">$39.99</div>
+            </div>
+            <div class="product-box" onclick="showPaymentOptions('Ergonomic Stand', 39.99)">
+                <img src="stands5.jpg" alt="Stand 5">
+                <div class="product-name">Ergonomic Stand</div>
+                <div class="product-price">$39.99</div>
+            </div>
+            <div class="product-box" onclick="showPaymentOptions('Ergonomic Stand', 39.99)">
+                <img src="stands6.jpg" alt="Stand 6">
+                <div class="product-name">Ergonomic Stand</div>
+                <div class="product-price">$39.99</div>
+            </div>
+            <div class="product-box" onclick="showPaymentOptions('Ergonomic Stand', 39.99)">
+                <img src="stands7.jpg" alt="Stand 7">
+                <div class="product-name">Ergonomic Stand</div>
+                <div class="product-price">$39.99</div>
+            </div>
+            <div class="product-box" onclick="showPaymentOptions('Ergonomic Stand', 39.99)">
+                <img src="stands8.jpg" alt="Stand 8">
+                <div class="product-name">Ergonomic Stand</div>
+                <div class="product-price">$39.99</div>
+            </div>
+            <div class="product-box" onclick="showPaymentOptions('Ergonomic Stand', 39.99)">
+                <img src="stands9.jpg" alt="Stand 9">
+                <div class="product-name">Ergonomic Stand</div>
+                <div class="product-price">$39.99</div>
+            </div>
+            <div class="product-box" onclick="showPaymentOptions('Ergonomic Stand', 39.99)">
+                <img src="stands10.jpg" alt="Stand 10">
+                <div class="product-name">Ergonomic Stand</div>
+                <div class="product-price">$39.99</div>
+            </div>
+            <div class="product-box" onclick="showPaymentOptions('Ergonomic Stand', 39.99)">
+                <img src="stands11.jpg" alt="Stand 11">
+                <div class="product-name">Ergonomic Stand</div>
+                <div class="product-price">$39.99</div>
+            </div>
+            <div class="product-box" onclick="showPaymentOptions('Ergonomic Stand', 39.99)">
+                <img src="stands12.jpg" alt="Stand 12">
+                <div class="product-name">Ergonomic Stand</div>
+                <div class="product-price">$39.99</div>
+            </div>
+            <div class="product-box" onclick="showPaymentOptions('Ergonomic Stand', 39.99)">
+                <img src="stands13.jpg" alt="Stand 13">
+                <div class="product-name">Ergonomic Stand</div>
+                <div class="product-price">$39.99</div>
+            </div>
+            <div class="product-box" onclick="showPaymentOptions('Ergonomic Stand', 39.99)">
+                <img src="stands14.jpg" alt="Stand 14">
+                <div class="product-name">Ergonomic Stand</div>
+                <div class="product-price">$39.99</div>
+            </div>
+            <div class="product-box" onclick="showPaymentOptions('Ergonomic Stand', 39.99)">
+                <img src="stands15.jpg" alt="Stand 15">
+                <div class="product-name">Ergonomic Stand</div>
+                <div class="product-price">$39.99</div>
+            </div>
+            <!-- More products can go here -->
+        </div>
+    </div>
+
+    <div class="payment-section" id="payment-section">
+        <h2>Payment Options for <span id="product-name"></span></h2>
+        <p>Choose your preferred payment method:</p>
+        <div>
+            <button class="mobile-money-button" onclick="payWithMTNMobileMoney()">Pay with MTN Mobile Money</button>
+        </div>
+        <div>
+            <a href="https://www.momo.vn" target="_blank">
+                <button class="momo-button">Pay with Momo</button>
+            </a>
+        </div>
+        <div id="payment-request-button"></div>
+    </div>
+
+    <script src="standjv.js">
+        
+    </script>
+      <!-- Social Media Links Section -->
+    <div class="social-media">
+        <a href="https://facebook.com/Nduwayo Daniel" target="_blank">Facebook</a>
+        <a href="https://instagram.com/Nduwaj" target="_blank">Instagram</a>
+        <a href="https://wa.me/0788290931" target="_blank">WhatsApp</a>
+    </div>
+<!-- Footer Section -->
+<footer>
+    <div class="footer-container">
+        <div class="footer-links">
+            <a href="home.html">Home</a>
+            <a href="laptops.html">Laptops</a>
+            <a href="stands.html">Stands</a>
+            <a href="bags.html">Bags</a>
+            <a href="info.html">INFO</a>
+        </div>
+        <div>
+            <p>&copy; 2025 Danny Shop. All rights reserved.</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>Follow us on social media for the latest updates and offers!</p>
+    </div>
+</footer>
+   
+</body>
+</html>
